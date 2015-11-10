@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transform:skew(0deg, -20deg);
+-ms-transform:skew(0deg, -20deg);
+-moz-transform:skew(0deg, -20deg);
+-o-transform:skew(0deg, -20deg);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>skew</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

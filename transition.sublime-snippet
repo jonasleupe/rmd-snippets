@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/*div {
+    width: 100px;
+    height: 100px;
+    background: red;*/
+    transition: width 2s, height 4s;
+/*}
+div:hover {
+    width: 300px;
+    height: 300px;
+}*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>transition</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

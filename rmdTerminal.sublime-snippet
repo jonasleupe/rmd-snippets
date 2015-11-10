@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+//Als er een package.json && webpack.config file is
+1. project map aanmaken
+2. stop er een index.html bestand in. Link voor de </body> een '<script type="text/javascript" src="js/script.js"></script>'. Link voor de </header> een '<link rel="stylesheet" type="text/css" href="css/style.css">'
+3. maak een _js map aan, stop er een script.js file in.
+4. maak een _scss map aan, stop er een style. 
+5. sleep package.json & webpack.config file in de map
+6. cd naar die map
+7. npm install
+8. webpack -w
+
+//Als er geen package.json && webpack.config file is
+1. project map aanmaken
+2. stop er een index.html bestand in. Link voor de </header> een '<link rel="stylesheet" type="text/css" href="css/style.css">'
+3. maak een _scss map aan, stop er een style. 
+4. cd naar die map
+5. sass --watch _scss/style.scss:css/style.css --style expanded
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rmdTerminal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
